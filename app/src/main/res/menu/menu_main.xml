@@ -4,7 +4,7 @@
     tools:context="com.sdk.realtimedatabase.MainActivity">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:onClick="onLogOut"
         android:title="@string/action_settings"
         app:showAsAction="never" />
 </menu>
