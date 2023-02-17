@@ -62,4 +62,8 @@ class MessageAdapter(
             binding.textTime.text = message.time
         }
     }
+    fun setList(messageList: MutableList<Message>) {
+        this.messageList = messageList
+        notifyDataSetChanged()
+    }
 }
